@@ -152,7 +152,7 @@ public class BaseNotificationBanner: UIView {
         Creates the proper banner constraints based on the desired banner position
      */
     
-    private func createBannerConstraints(for bannerPosition: BannerPosition) {
+    public func createBannerConstraints(for bannerPosition: BannerPosition) {
         
         spacerView.snp.remakeConstraints { (make) in
             if bannerPosition == .top {
