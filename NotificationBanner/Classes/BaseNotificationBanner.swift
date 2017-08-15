@@ -102,7 +102,7 @@ public class BaseNotificationBanner: UIView {
     public var bannerPosition: BannerPosition!
     
     /// Object that stores the start and end frames for the notification banner based on the provided banner position
-    private var bannerPositionFrame: BannerPositionFrame!
+    public var bannerPositionFrame: BannerPositionFrame!
     
     public override var backgroundColor: UIColor? {
         get {
