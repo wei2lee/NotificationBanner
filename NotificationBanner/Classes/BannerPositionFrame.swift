@@ -28,7 +28,7 @@ public class BannerPositionFrame: NSObject {
     public  var startFrame: CGRect!
     public  var endFrame: CGRect!
 
-    init(bannerPosition: BannerPosition,
+    public init(bannerPosition: BannerPosition,
          bannerWidth: CGFloat,
          bannerHeight: CGFloat,
          maxY: CGFloat) {
