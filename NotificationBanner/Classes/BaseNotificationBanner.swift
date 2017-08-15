@@ -99,7 +99,7 @@ public class BaseNotificationBanner: UIView {
     private weak var parentViewController: UIViewController?
     
     /// The position the notification banner should slide in from
-    private(set) var bannerPosition: BannerPosition!
+    public var bannerPosition: BannerPosition!
     
     /// Object that stores the start and end frames for the notification banner based on the provided banner position
     private var bannerPositionFrame: BannerPositionFrame!

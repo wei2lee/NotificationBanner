@@ -23,10 +23,10 @@ public enum BannerPosition {
     case top
 }
 
-class BannerPositionFrame: NSObject {
+public class BannerPositionFrame: NSObject {
     
-    private(set) var startFrame: CGRect!
-    private(set) var endFrame: CGRect!
+    public  var startFrame: CGRect!
+    public  var endFrame: CGRect!
 
     init(bannerPosition: BannerPosition,
          bannerWidth: CGFloat,
